@@ -1,4 +1,6 @@
-# SQLiteHelper
+[![Release](https://jitpack.io/v/User/Repo.svg)](https://jitpack.io/#User/Repo)
+
+# SQLiteHelper 
 This Parser comes in handy when you want to write a sql statement easily and smarter.
 
 #Porpouse
