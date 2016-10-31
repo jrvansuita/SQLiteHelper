@@ -7,7 +7,20 @@ Make things easy when you need to write a sql statment for Android SQLite.
 
 # Usage
 
-Copy the [sql](\sql) folder to your Android project.
+#### Step 1. Add the JitPack repository to your build file:
+
+    allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+
+#### Step 2. Add the dependency
+
+    dependencies {
+	        compile 'com.github.jrvansuita:SQLiteHelper:v1.0.0'
+	}
 
 # Implementation
 
