@@ -22,6 +22,9 @@ Make things easy when you need to write a sql statment for Android SQLite.
 	        compile 'com.github.jrvansuita:SQLiteHelper:v1.0.0'
 	}
 
+# Samples
+ You can take a look at the sample app [located on this project](/app/).
+
 # Implementation
 
 ### Select
