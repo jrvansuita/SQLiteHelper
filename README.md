@@ -1,4 +1,5 @@
 [![Release](https://jitpack.io/v/jrvansuita/SQLiteHelper.svg)](https://jitpack.io/#jrvansuita/SQLiteHelper)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SQLiteParser-green.svg?style=true)](https://android-arsenal.com/details/1/4565)
 
 # SQLiteHelper 
 This Parser comes in handy when you want to write a sql statement easily and smarter.
