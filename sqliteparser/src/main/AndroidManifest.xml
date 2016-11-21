@@ -1,9 +1,1 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vansuita.sqliteparser">
-
-    <application android:allowBackup="true" android:label="SQLiteParser"
-        android:supportsRtl="true">
-
-    </application>
-
-</manifest>
+<manifest package="com.vansuita.sqliteparser" />

@@ -1,4 +1,4 @@
-package com.vansuita.sqlitehelper;
+package com.vansuita.sqlitehelper.sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

@@ -131,3 +131,6 @@ Make things easy when you need to write a sql statment for Android SQLite.
 		          .add("CITY", "New York")
         		  .add("STATE", "New Jersey");
         		  
+
+# License
+See the [LICENSE](/LICENSE.txt). file for license rights and limitations (MIT).
