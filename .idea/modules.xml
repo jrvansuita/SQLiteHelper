@@ -4,8 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SQLiteHelper.iml" filepath="$PROJECT_DIR$/SQLiteHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/SQLiteHelper.iml" filepath="$PROJECT_DIR$/SQLiteHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLiteHelper.iml" filepath="$PROJECT_DIR$/SQLiteHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sqliteparser/sqliteparser.iml" filepath="$PROJECT_DIR$/sqliteparser/sqliteparser.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqliteparser/sqliteparser.iml" filepath="$PROJECT_DIR$/sqliteparser/sqliteparser.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqliteparser/sqliteparser.iml" filepath="$PROJECT_DIR$/sqliteparser/sqliteparser.iml" />
     </modules>

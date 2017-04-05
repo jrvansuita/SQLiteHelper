@@ -85,6 +85,7 @@ Make things easy when you need to write a sql statment for Android SQLite.
          .smallerEqual("THE_COLUMN", 40)
          .or()
          .equalTrim("TEST", " RAW ")
+         .like("TEST2", "%fox%")
          .build();
        
    > Output: SELECT  *  FROM  TABLE WHERE THE_COLUMN > 9 AND THE_COLUMN <= 40 OR TRIM(TEST) = 'RAW'
@@ -144,5 +145,3 @@ Make things easy when you need to write a sql statment for Android SQLite.
          yourDb.update(tableName, cv, rowId + " = ?", new String[]{String.valueOf(yourId)});
 
 
-# License
-See the [LICENSE](/LICENSE.txt). file for license rights and limitations (MIT).

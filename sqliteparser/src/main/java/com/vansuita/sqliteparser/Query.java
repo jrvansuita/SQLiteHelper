@@ -179,6 +179,14 @@ public class Query extends SqlParser {
         return where(column + " IN (" + subSelect + ")");
     }
 
+    public Query like(String cAlias, String column, String value) {
+        return like(colAlias(cAlias, column), value);
+    }
+
+    public Query like(String column, String value) {
+        return where(column, "LIKE", "'" + value + "'");
+    }
+
 
     // --- Exists or Not --- //
 
@@ -267,7 +275,6 @@ public class Query extends SqlParser {
 
         return sql;
     }
-
 
 
     private String get(List<String> list) {
