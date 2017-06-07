@@ -64,6 +64,7 @@ public abstract class SqlParser {
     protected static final String CREATE_TABLE = "CREATE TABLE %s (%s)";
     protected static final String INTEGER = "INTEGER";
     protected static final String PK = INTEGER + " PRIMARY KEY";
+    protected static final String AUTOINCREMENT = PK + " AUTOINCREMENT";
     protected static final String TEXT = "TEXT";
     protected static final String FLOAT = "FLOAT";
 
