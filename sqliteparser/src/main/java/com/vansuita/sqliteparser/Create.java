@@ -49,6 +49,17 @@ public class Create extends SqlParser {
     }
 
     /**
+     * Sets the primary key autoincrement field name.
+     *
+     * @param fieldName The name of the field
+     * @return the same instance of {@link Create} class.
+     */
+    public Create pkai(String fieldName) {
+        fields.put(fieldName, AUTOINCREMENT);
+        return this;
+    }
+
+    /**
      * Sets a String field name.
      *
      * @param fieldName The name nof the field
